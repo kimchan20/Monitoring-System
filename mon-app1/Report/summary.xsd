@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="summary" targetNamespace="http://tempuri.org/summary.xsd" xmlns:mstns="http://tempuri.org/summary.xsd" xmlns="http://tempuri.org/summary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="summary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="summary" msprop:Generator_UserDSName="summary">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Labor" msprop:Generator_TableClassName="LaborDataTable" msprop:Generator_TableVarName="tableLabor" msprop:Generator_TablePropName="Labor" msprop:Generator_RowDeletingName="LaborRowDeleting" msprop:Generator_RowChangingName="LaborRowChanging" msprop:Generator_RowEvHandlerName="LaborRowChangeEventHandler" msprop:Generator_RowDeletedName="LaborRowDeleted" msprop:Generator_UserTableName="Labor" msprop:Generator_RowChangedName="LaborRowChanged" msprop:Generator_RowEvArgName="LaborRowChangeEvent" msprop:Generator_RowClassName="LaborRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="week1" msprop:Generator_ColumnVarNameInTable="columnweek1" msprop:Generator_ColumnPropNameInRow="week1" msprop:Generator_ColumnPropNameInTable="week1Column" msprop:Generator_UserColumnName="week1" type="xs:string" minOccurs="0" />
+              <xs:element name="week2" msprop:Generator_ColumnVarNameInTable="columnweek2" msprop:Generator_ColumnPropNameInRow="week2" msprop:Generator_ColumnPropNameInTable="week2Column" msprop:Generator_UserColumnName="week2" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Material" msprop:Generator_TableClassName="MaterialDataTable" msprop:Generator_TableVarName="tableMaterial" msprop:Generator_TablePropName="Material" msprop:Generator_RowDeletingName="MaterialRowDeleting" msprop:Generator_RowChangingName="MaterialRowChanging" msprop:Generator_RowEvHandlerName="MaterialRowChangeEventHandler" msprop:Generator_RowDeletedName="MaterialRowDeleted" msprop:Generator_UserTableName="Material" msprop:Generator_RowChangedName="MaterialRowChanged" msprop:Generator_RowEvArgName="MaterialRowChangeEvent" msprop:Generator_RowClassName="MaterialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+              <xs:element name="or" msprop:Generator_ColumnVarNameInTable="columnor" msprop:Generator_ColumnPropNameInRow="or" msprop:Generator_ColumnPropNameInTable="orColumn" msprop:Generator_UserColumnName="or" type="xs:string" minOccurs="0" />
+              <xs:element name="po" msprop:Generator_ColumnVarNameInTable="columnpo" msprop:Generator_ColumnPropNameInRow="po" msprop:Generator_ColumnPropNameInTable="poColumn" msprop:Generator_UserColumnName="po" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Labor1" msprop:Generator_TableClassName="Labor1DataTable" msprop:Generator_TableVarName="tableLabor1" msprop:Generator_RowChangedName="Labor1RowChanged" msprop:Generator_TablePropName="Labor1" msprop:Generator_RowDeletingName="Labor1RowDeleting" msprop:Generator_RowChangingName="Labor1RowChanging" msprop:Generator_RowEvHandlerName="Labor1RowChangeEventHandler" msprop:Generator_RowDeletedName="Labor1RowDeleted" msprop:Generator_RowClassName="Labor1Row" msprop:Generator_UserTableName="Labor1" msprop:Generator_RowEvArgName="Labor1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="week1" msprop:Generator_ColumnVarNameInTable="columnweek1" msprop:Generator_ColumnPropNameInRow="week1" msprop:Generator_ColumnPropNameInTable="week1Column" msprop:Generator_UserColumnName="week1" type="xs:string" minOccurs="0" />
+              <xs:element name="week2" msprop:Generator_ColumnVarNameInTable="columnweek2" msprop:Generator_ColumnPropNameInRow="week2" msprop:Generator_ColumnPropNameInTable="week2Column" msprop:Generator_UserColumnName="week2" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Labor2" msprop:Generator_TableClassName="Labor2DataTable" msprop:Generator_TableVarName="tableLabor2" msprop:Generator_RowChangedName="Labor2RowChanged" msprop:Generator_TablePropName="Labor2" msprop:Generator_RowDeletingName="Labor2RowDeleting" msprop:Generator_RowChangingName="Labor2RowChanging" msprop:Generator_RowEvHandlerName="Labor2RowChangeEventHandler" msprop:Generator_RowDeletedName="Labor2RowDeleted" msprop:Generator_RowClassName="Labor2Row" msprop:Generator_UserTableName="Labor2" msprop:Generator_RowEvArgName="Labor2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="week1" msprop:Generator_ColumnVarNameInTable="columnweek1" msprop:Generator_ColumnPropNameInRow="week1" msprop:Generator_ColumnPropNameInTable="week1Column" msprop:Generator_UserColumnName="week1" type="xs:string" minOccurs="0" />
+              <xs:element name="week2" msprop:Generator_ColumnVarNameInTable="columnweek2" msprop:Generator_ColumnPropNameInRow="week2" msprop:Generator_ColumnPropNameInTable="week2Column" msprop:Generator_UserColumnName="week2" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Labor3" msprop:Generator_TableClassName="Labor3DataTable" msprop:Generator_TableVarName="tableLabor3" msprop:Generator_RowChangedName="Labor3RowChanged" msprop:Generator_TablePropName="Labor3" msprop:Generator_RowDeletingName="Labor3RowDeleting" msprop:Generator_RowChangingName="Labor3RowChanging" msprop:Generator_RowEvHandlerName="Labor3RowChangeEventHandler" msprop:Generator_RowDeletedName="Labor3RowDeleted" msprop:Generator_RowClassName="Labor3Row" msprop:Generator_UserTableName="Labor3" msprop:Generator_RowEvArgName="Labor3RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="week1" msprop:Generator_ColumnVarNameInTable="columnweek1" msprop:Generator_ColumnPropNameInRow="week1" msprop:Generator_ColumnPropNameInTable="week1Column" msprop:Generator_UserColumnName="week1" type="xs:string" minOccurs="0" />
+              <xs:element name="week2" msprop:Generator_ColumnVarNameInTable="columnweek2" msprop:Generator_ColumnPropNameInRow="week2" msprop:Generator_ColumnPropNameInTable="week2Column" msprop:Generator_UserColumnName="week2" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Material1" msprop:Generator_TableClassName="Material1DataTable" msprop:Generator_TableVarName="tableMaterial1" msprop:Generator_RowChangedName="Material1RowChanged" msprop:Generator_TablePropName="Material1" msprop:Generator_RowDeletingName="Material1RowDeleting" msprop:Generator_RowChangingName="Material1RowChanging" msprop:Generator_RowEvHandlerName="Material1RowChangeEventHandler" msprop:Generator_RowDeletedName="Material1RowDeleted" msprop:Generator_RowClassName="Material1Row" msprop:Generator_UserTableName="Material1" msprop:Generator_RowEvArgName="Material1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date1" msdata:Caption="date" msprop:Generator_ColumnVarNameInTable="columndate1" msprop:Generator_ColumnPropNameInRow="date1" msprop:Generator_ColumnPropNameInTable="date1Column" msprop:Generator_UserColumnName="date1" type="xs:string" minOccurs="0" />
+              <xs:element name="or1" msdata:Caption="or" msprop:Generator_ColumnVarNameInTable="columnor1" msprop:Generator_ColumnPropNameInRow="or1" msprop:Generator_ColumnPropNameInTable="or1Column" msprop:Generator_UserColumnName="or1" type="xs:string" minOccurs="0" />
+              <xs:element name="po1" msdata:Caption="po" msprop:Generator_ColumnVarNameInTable="columnpo1" msprop:Generator_ColumnPropNameInRow="po1" msprop:Generator_ColumnPropNameInTable="po1Column" msprop:Generator_UserColumnName="po1" type="xs:string" minOccurs="0" />
+              <xs:element name="amount1" msdata:Caption="amount" msprop:Generator_ColumnVarNameInTable="columnamount1" msprop:Generator_ColumnPropNameInRow="amount1" msprop:Generator_ColumnPropNameInTable="amount1Column" msprop:Generator_UserColumnName="amount1" type="xs:string" minOccurs="0" />
+              <xs:element name="project1" msdata:Caption="project" msprop:Generator_ColumnVarNameInTable="columnproject1" msprop:Generator_ColumnPropNameInRow="project1" msprop:Generator_ColumnPropNameInTable="project1Column" msprop:Generator_UserColumnName="project1" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks1" msdata:Caption="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks1" msprop:Generator_ColumnPropNameInRow="weeks1" msprop:Generator_ColumnPropNameInTable="weeks1Column" msprop:Generator_UserColumnName="weeks1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Material2" msprop:Generator_TableClassName="Material2DataTable" msprop:Generator_TableVarName="tableMaterial2" msprop:Generator_RowChangedName="Material2RowChanged" msprop:Generator_TablePropName="Material2" msprop:Generator_RowDeletingName="Material2RowDeleting" msprop:Generator_RowChangingName="Material2RowChanging" msprop:Generator_RowEvHandlerName="Material2RowChangeEventHandler" msprop:Generator_RowDeletedName="Material2RowDeleted" msprop:Generator_RowClassName="Material2Row" msprop:Generator_UserTableName="Material2" msprop:Generator_RowEvArgName="Material2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date2" msdata:Caption="date" msprop:Generator_ColumnVarNameInTable="columndate2" msprop:Generator_ColumnPropNameInRow="date2" msprop:Generator_ColumnPropNameInTable="date2Column" msprop:Generator_UserColumnName="date2" type="xs:string" minOccurs="0" />
+              <xs:element name="or2" msdata:Caption="or" msprop:Generator_ColumnVarNameInTable="columnor2" msprop:Generator_ColumnPropNameInRow="or2" msprop:Generator_ColumnPropNameInTable="or2Column" msprop:Generator_UserColumnName="or2" type="xs:string" minOccurs="0" />
+              <xs:element name="po2" msdata:Caption="po" msprop:Generator_ColumnVarNameInTable="columnpo2" msprop:Generator_ColumnPropNameInRow="po2" msprop:Generator_ColumnPropNameInTable="po2Column" msprop:Generator_UserColumnName="po2" type="xs:string" minOccurs="0" />
+              <xs:element name="amount2" msdata:Caption="amount" msprop:Generator_ColumnVarNameInTable="columnamount2" msprop:Generator_ColumnPropNameInRow="amount2" msprop:Generator_ColumnPropNameInTable="amount2Column" msprop:Generator_UserColumnName="amount2" type="xs:string" minOccurs="0" />
+              <xs:element name="project2" msdata:Caption="project" msprop:Generator_ColumnVarNameInTable="columnproject2" msprop:Generator_ColumnPropNameInRow="project2" msprop:Generator_ColumnPropNameInTable="project2Column" msprop:Generator_UserColumnName="project2" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks2" msdata:Caption="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks2" msprop:Generator_ColumnPropNameInRow="weeks2" msprop:Generator_ColumnPropNameInTable="weeks2Column" msprop:Generator_UserColumnName="weeks2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Material3" msprop:Generator_TableClassName="Material3DataTable" msprop:Generator_TableVarName="tableMaterial3" msprop:Generator_RowChangedName="Material3RowChanged" msprop:Generator_TablePropName="Material3" msprop:Generator_RowDeletingName="Material3RowDeleting" msprop:Generator_RowChangingName="Material3RowChanging" msprop:Generator_RowEvHandlerName="Material3RowChangeEventHandler" msprop:Generator_RowDeletedName="Material3RowDeleted" msprop:Generator_RowClassName="Material3Row" msprop:Generator_UserTableName="Material3" msprop:Generator_RowEvArgName="Material3RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date3" msdata:Caption="date" msprop:Generator_ColumnVarNameInTable="columndate3" msprop:Generator_ColumnPropNameInRow="date3" msprop:Generator_ColumnPropNameInTable="date3Column" msprop:Generator_UserColumnName="date3" type="xs:string" minOccurs="0" />
+              <xs:element name="or3" msdata:Caption="or" msprop:Generator_ColumnVarNameInTable="columnor3" msprop:Generator_ColumnPropNameInRow="or3" msprop:Generator_ColumnPropNameInTable="or3Column" msprop:Generator_UserColumnName="or3" type="xs:string" minOccurs="0" />
+              <xs:element name="po3" msdata:Caption="po" msprop:Generator_ColumnVarNameInTable="columnpo3" msprop:Generator_ColumnPropNameInRow="po3" msprop:Generator_ColumnPropNameInTable="po3Column" msprop:Generator_UserColumnName="po3" type="xs:string" minOccurs="0" />
+              <xs:element name="amount3" msdata:Caption="amount" msprop:Generator_ColumnVarNameInTable="columnamount3" msprop:Generator_ColumnPropNameInRow="amount3" msprop:Generator_ColumnPropNameInTable="amount3Column" msprop:Generator_UserColumnName="amount3" type="xs:string" minOccurs="0" />
+              <xs:element name="project3" msdata:Caption="project" msprop:Generator_ColumnVarNameInTable="columnproject3" msprop:Generator_ColumnPropNameInRow="project3" msprop:Generator_ColumnPropNameInTable="project3Column" msprop:Generator_UserColumnName="project3" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks3" msdata:Caption="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks3" msprop:Generator_ColumnPropNameInRow="weeks3" msprop:Generator_ColumnPropNameInTable="weeks3Column" msprop:Generator_UserColumnName="weeks3" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Material4" msprop:Generator_TableClassName="Material4DataTable" msprop:Generator_TableVarName="tableMaterial4" msprop:Generator_TablePropName="Material4" msprop:Generator_RowDeletingName="Material4RowDeleting" msprop:Generator_RowChangingName="Material4RowChanging" msprop:Generator_RowEvHandlerName="Material4RowChangeEventHandler" msprop:Generator_RowDeletedName="Material4RowDeleted" msprop:Generator_UserTableName="Material4" msprop:Generator_RowChangedName="Material4RowChanged" msprop:Generator_RowEvArgName="Material4RowChangeEvent" msprop:Generator_RowClassName="Material4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+              <xs:element name="or" msprop:Generator_ColumnVarNameInTable="columnor" msprop:Generator_ColumnPropNameInRow="or" msprop:Generator_ColumnPropNameInTable="orColumn" msprop:Generator_UserColumnName="or" type="xs:string" minOccurs="0" />
+              <xs:element name="po" msprop:Generator_ColumnVarNameInTable="columnpo" msprop:Generator_ColumnPropNameInRow="po" msprop:Generator_ColumnPropNameInTable="poColumn" msprop:Generator_UserColumnName="po" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Labor4" msprop:Generator_TableClassName="Labor4DataTable" msprop:Generator_TableVarName="tableLabor4" msprop:Generator_TablePropName="Labor4" msprop:Generator_RowDeletingName="Labor4RowDeleting" msprop:Generator_RowChangingName="Labor4RowChanging" msprop:Generator_RowEvHandlerName="Labor4RowChangeEventHandler" msprop:Generator_RowDeletedName="Labor4RowDeleted" msprop:Generator_UserTableName="Labor4" msprop:Generator_RowChangedName="Labor4RowChanged" msprop:Generator_RowEvArgName="Labor4RowChangeEvent" msprop:Generator_RowClassName="Labor4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="week1" msprop:Generator_ColumnVarNameInTable="columnweek1" msprop:Generator_ColumnPropNameInRow="week1" msprop:Generator_ColumnPropNameInTable="week1Column" msprop:Generator_UserColumnName="week1" type="xs:string" minOccurs="0" />
+              <xs:element name="week2" msprop:Generator_ColumnVarNameInTable="columnweek2" msprop:Generator_ColumnPropNameInRow="week2" msprop:Generator_ColumnPropNameInTable="week2Column" msprop:Generator_UserColumnName="week2" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="project" msprop:Generator_ColumnVarNameInTable="columnproject" msprop:Generator_ColumnPropNameInRow="project" msprop:Generator_ColumnPropNameInTable="projectColumn" msprop:Generator_UserColumnName="project" type="xs:string" minOccurs="0" />
+              <xs:element name="weeks" msprop:Generator_ColumnVarNameInTable="columnweeks" msprop:Generator_ColumnPropNameInRow="weeks" msprop:Generator_ColumnPropNameInTable="weeksColumn" msprop:Generator_UserColumnName="weeks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
