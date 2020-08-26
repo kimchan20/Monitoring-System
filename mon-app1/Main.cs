@@ -95,8 +95,7 @@ namespace mon_app1
         }
         private void Main_Load(object sender, EventArgs e)
         {
-
-            comboBox2.SelectedIndex = 0;
+	        comboBox2.SelectedIndex = 0;
             projectcombo.SelectedIndex = 0;
             WeeklyCombo.SelectedItem = 0;
             getPrjlist();
